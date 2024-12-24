@@ -287,7 +287,10 @@ local sValues = {
 		"Thank you",
 		"Thanks!",
 		"ty :)",
-		"tysm!"
+		"tysm!",
+		"Ty! :D",
+		"Thanks :D",
+		"Ty :D"
 	},
 	false,
 	"✅ 1R$ = +1 SPIN SPEED ✅",
@@ -330,26 +333,30 @@ local sValues = {
 	{
 		'Hi',
 		'Sup',
-		'Hello'
+		'Hello',
+		'Wsp'
 	},
 	{
 		'no im not',
-		'im not a bot'
+		'im not a bot',
+		'im not lol'
 	},
 	{
 		"sorry im saving",
-		"i am saving for my dream item",
+		"i am saving for a donation spree",
 		"sorry my robux is pending"
 	},
 	{
 		"..?",
 		"what",
-		"?"
+		"?",
+		"huh?"
 	},
 	{
 		"im no scam",
 		"im not a scammer",
-		"this is not a scam"
+		"this is not a scam",
+		"im not scamming"
 	},
 	false,
 	1000,
@@ -794,7 +801,7 @@ local function webhook(raised, donor)
 			},
 		},
 		["footer"] = {
-			["text"] = "made by @szze / https://discord.gg/e5Tg9SFnrq",
+			["text"] = "Made by Alf gg/7TYzTmxYFk",
 		},
 		["timestamp"] = string.format("%d-%d-%dT%02d:%02d:%02dZ", a.year, a.month, a.day, a.hour, a.min, a.sec)
 	}
@@ -886,7 +893,7 @@ local function checkForBots()
 	end
 end
 
-local Window = library:AddWindow("@szze .gg/e5Tg9SFnrq | Merry christmas! 🎄 Spend time with your family!",
+local Window = library:AddWindow("Made by Alf .gg/7TYzTmxYFk | Merry christmas! 🎄 Spend time with your family!",
   {
 	main_color = Color3.fromRGB(80, 80, 80),
 	min_size = Vector2.new(560, 563),
